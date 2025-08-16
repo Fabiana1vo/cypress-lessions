@@ -1,0 +1,29 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "all my cypress study content.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabiana1vo/cypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "angular",
+    "testing",
+    "test",
+    "e2e"
+  ],
+  "author": "Fabiana1vo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fabiana1vo/cypress/issues"
+  },
+  "homepage": "https://github.com/Fabiana1vo/cypress#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}
