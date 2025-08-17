@@ -29,7 +29,8 @@ describe('should testing all routes on adopet website', () => {
    })
 
    it('should visit the home page', () => {
-    cy.visit('https://adopet-frontend-cypress.vercel.app/home')
+    cy.visit('https://adopet-frontend-cypress.vercel.app')
+        cy.contains('a', 'Ver pets disponíveis para adoção').click();
    })
    
 
