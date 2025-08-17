@@ -7,7 +7,7 @@ describe('login page suit tests', () => {
     cy.get('[data-test="login-button"]').click()
   })
 
-  it('should add login information', () => {
+  it('should add login information and redirect user to home page', () => {
     cy.get('[data-test="login-button"]').click()
     cy.get('[data-test="input-loginEmail"]').type('ana@email.com')
     cy.get('[data-test="input-loginPassword"]').type('Senha123')
